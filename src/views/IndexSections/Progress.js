@@ -1,5 +1,4 @@
 import React from "react";
-// reactstrap components
 import { Progress } from "reactstrap";
 
 class Progresses extends React.Component {

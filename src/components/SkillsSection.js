@@ -5,7 +5,6 @@ class SkillsSection extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      // Skills data with image links, percentage, and optional color for the progress bars
       skills: [
         {
           name: "JavaScript",

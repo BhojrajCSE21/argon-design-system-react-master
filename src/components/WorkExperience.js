@@ -9,7 +9,7 @@ const workExperienceData = [
     company: "Company A",
     duration: "Jan 2021 - Present",
     description: "Worked on developing user-friendly web applications using React.",
-    position: "left", // Explicitly placed on the left
+    position: "left", 
   },
   {
     number: 2,
@@ -17,7 +17,7 @@ const workExperienceData = [
     company: "Company B",
     duration: "Jun 2020 - Dec 2020",
     description: "Assisted in the development of e-commerce websites.",
-    position: "right", // Explicitly placed on the right
+    position: "right", 
   },
   {
     number: 3,
@@ -25,7 +25,7 @@ const workExperienceData = [
     company: "Company C",
     duration: "Jan 2019 - May 2020",
     description: "Designed and prototyped user interfaces for mobile applications.",
-    position: "left", // Explicitly placed on the left
+    position: "left", 
   },
 ];
 
@@ -35,12 +35,12 @@ const WorkExperience = () => {
       <Container>
         <h2 className="text-center text-white">Work Experience</h2>
         <Row className="justify-content-start">
-          <Col lg="12"> {/* Set this column to cover full width */}
+          <Col lg="12"> 
             <div className="timeline">
               {workExperienceData.map((job, index) => (
                 <Row
                   key={index}
-                  className={`timeline-item ${job.position}`} // Apply left/right based on position
+                  className={`timeline-item ${job.position}`} 
                 >
                   {job.position === "left" ? (
                     <>

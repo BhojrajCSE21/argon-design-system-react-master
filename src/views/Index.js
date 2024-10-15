@@ -1,7 +1,7 @@
 import React from "react";
 import SkillsSection from "../components/SkillsSection";
-import ContactForm from "../components/ContactForm"; // Import the new ContactForm component
-import WorkExperience from "../components/WorkExperience"; // Import the WorkExperience component
+import ContactForm from "../components/ContactForm"; 
+import WorkExperience from "../components/WorkExperience"; 
 
 import {
   Button,
@@ -12,7 +12,7 @@ import {
   Col,
 } from "reactstrap";
 
-// core components
+
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter";
 import Projects from "components/Projects";
@@ -24,7 +24,7 @@ class ProfilePage extends React.Component {
       nameFocused: false,
       emailFocused: false,
     };
-    this.skillsRef = React.createRef(); // Create a reference for the Skills section
+    this.skillsRef = React.createRef(); 
   }
 
   componentDidMount() {

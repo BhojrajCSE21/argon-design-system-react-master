@@ -6,18 +6,18 @@ import image1 from "assets/img/icons/13600b28bef66ce5b57bd72df867de72.jpg";
 import image2 from "assets/img/icons/Price_Benchmarking__.jpg";
 import image3 from "assets/img/icons/OIP.jpg";
 
-// Dummy project data
+
 const projectData = [
   {
     title: "Business Card Generator",
     description: "Web Developer",
     technologies: ["SvelteKit", "CSS", "JavaScript"],
     link: "https://github.com/yourusername/business-card-generator",
-    image: image1, // Use imported images
+    image: image1, 
     social: {
-      twitter: "#", // Replace with actual URL
-      facebook: "#", // Replace with actual URL
-      dribbble: "#", // Replace with actual URL
+      twitter: "#", 
+      facebook: "#", 
+      dribbble: "#", 
     },
   },
   {
@@ -25,11 +25,11 @@ const projectData = [
     description: "Marketing Strategist",
     technologies: ["Node.js", "Express", "MongoDB"],
     link: "https://github.com/yourusername/price-benchmarking",
-    image: image2, // Use imported images
+    image: image2, 
     social: {
-      twitter: "#", // Replace with actual URL
-      facebook: "#", // Replace with actual URL
-      dribbble: "#", // Replace with actual URL
+      twitter: "#", 
+      facebook: "#", 
+      dribbble: "#", 
     },
   },
   {
@@ -37,11 +37,11 @@ const projectData = [
     description: "UI/UX Designer",
     technologies: ["React", "Node.js", "Vite"],
     link: "https://github.com/yourusername/react-game",
-    image: image3, // Use imported images
+    image: image3, 
     social: {
-      twitter: "#", // Replace with actual URL
-      facebook: "#", // Replace with actual URL
-      dribbble: "#", // Replace with actual URL
+      twitter: "#", 
+      facebook: "#", 
+      dribbble: "#", 
     },
   },
 ];
