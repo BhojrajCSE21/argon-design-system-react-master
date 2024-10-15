@@ -54,11 +54,11 @@ To get a local copy up and running, follow these simple steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/portfolio-page.git
+   git clone https://github.com/yourusername/portfolio-page.git](https://github.com/BhojrajCSE21/argon-design-system-react-master.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd portfolio-page
+   cd argon-design-system-react-master
    ```
 3. Install the dependencies:
    ```bash
