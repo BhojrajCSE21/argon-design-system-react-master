@@ -1,59 +1,38 @@
-/*!
-
-=========================================================
-* Argon Design System React - v1.1.2
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
-
 // reactstrap components
-import { Progress, Col } from "reactstrap";
+import { Progress } from "reactstrap";
 
-class ProgressSection extends React.Component {
+class Progresses extends React.Component {
   render() {
+    const { skills } = this.props;
+
     return (
       <>
-        <Col lg="5">
-          <h3 className="h4 text-success font-weight-bold mb-4">
-            Progress bars
-          </h3>
-          <div className="progress-wrapper">
-            <div className="progress-info">
-              <div className="progress-label">
-                <span>Task completed</span>
-              </div>
-              <div className="progress-percentage">
-                <span>40%</span>
-              </div>
-            </div>
-            <Progress max="100" value="25" color="default" />
-          </div>
-          <div className="progress-wrapper">
-            <div className="progress-info">
-              <div className="progress-label">
-                <span>Task completed</span>
-              </div>
-              <div className="progress-percentage">
-                <span>60%</span>
+        {skills.map((skill, index) => (
+          <div key={index} className="progress-wrapper mb-4">
+            <div className="d-flex align-items-center">
+              {/* Skill Image */}
+              <img
+                src={skill.image}
+                alt={skill.name}
+                className="mr-3"
+                style={{ width: '40px', height: '40px', borderRadius: '50%' }}
+              />
+              <div className="progress-info w-100">
+                {/* Skill Name and Percentage */}
+                <div className="d-flex justify-content-between">
+                  <span>{skill.name}</span>
+                  <span>{skill.percentage}%</span>
+                </div>
+                {/* Progress Bar */}
+                <Progress max="100" value={skill.percentage} color={skill.color || "default"} />
               </div>
             </div>
-            <Progress max="100" value="60" />
           </div>
-        </Col>
+        ))}
       </>
     );
   }
 }
 
-export default ProgressSection;
+export default Progresses;
