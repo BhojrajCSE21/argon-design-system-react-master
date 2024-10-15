@@ -1,3 +1,6 @@
+# Kaliba Enterprises Pvt Ltd.
+
+
 # Portfolio Page (Person Profile)
 
 This repository contains a fully designed and functional UI for a personal profile page. The project showcases a professional portfolio that allows users to effectively present their personal or professional information.
@@ -30,13 +33,16 @@ The Portfolio Page enables users to showcase their personal and professional pro
 Here are some screenshots of the main pages of the portfolio:
 
 ### Home Page
-![Home Page Screenshot](path/to/homepage-screenshot.png)
+![Home Page Screenshot](src/assets/img/theme/home.png)
 
-### Profile Details Page
-![Profile Details Page Screenshot](path/to/profile-details-screenshot.png)
+### Skills Page
+![Skills Details Page Screenshot](src/assets/img/theme/skills.png)
+
+### Experience Page
+![Experience Details Page Screenshot](src/assets/img/theme/exp.png)
 
 ### Contact Page
-![Contact Page Screenshot](path/to/contact-page-screenshot.png)
+![Contact Page Screenshot](src/assets/img/theme/footer.png)
 
 ## Getting Started
 To get a local copy up and running, follow these simple steps:
@@ -51,11 +57,11 @@ To get a local copy up and running, follow these simple steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/portfolio-page.git
+   git clone https://github.com/yourusername/portfolio-page.git](https://github.com/BhojrajCSE21/argon-design-system-react-master.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd portfolio-page
+   cd argon-design-system-react-master
    ```
 3. Install the dependencies:
    ```bash
