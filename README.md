@@ -33,7 +33,10 @@ Here are some screenshots of the main pages of the portfolio:
 ![Home Page Screenshot](src/assets/img/theme/home.png)
 
 ### Skills Page
-![Profile Details Page Screenshot](src/assets/img/theme/skills.png)
+![Skills Details Page Screenshot](src/assets/img/theme/skills.png)
+
+### Experience Page
+![Experience Details Page Screenshot](src/assets/img/theme/exp.png)
 
 ### Contact Page
 ![Contact Page Screenshot](src/assets/img/theme/footer.png)
