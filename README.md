@@ -30,13 +30,13 @@ The Portfolio Page enables users to showcase their personal and professional pro
 Here are some screenshots of the main pages of the portfolio:
 
 ### Home Page
-![Home Page Screenshot](path/to/homepage-screenshot.png)
+![Home Page Screenshot](src/assets/img/theme/home.png)
 
-### Profile Details Page
-![Profile Details Page Screenshot](path/to/profile-details-screenshot.png)
+### Skills Page
+![Profile Details Page Screenshot](src/assets/img/theme/skills.png)
 
 ### Contact Page
-![Contact Page Screenshot](path/to/contact-page-screenshot.png)
+![Contact Page Screenshot](src/assets/img/theme/footer.png)
 
 ## Getting Started
 To get a local copy up and running, follow these simple steps:
